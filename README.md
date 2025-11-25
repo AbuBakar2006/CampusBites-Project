@@ -2,11 +2,6 @@
 
 A comprehensive **Console-Based Cafe Management System** implemented in C++. This project simulates real-world cafe operations including menu management, customer loyalty programs, order processing, and automated sales reporting. It uses **File Handling** (`.csv` and `.txt`) to persist data across sessions.
 
-
-
-[Image of cafe management system context diagram]
-
-
 ## 🚀 Features
 
 * **Menu Management:**
@@ -51,23 +46,23 @@ The program uses the following files to store data permanently:
 Run the following command in your terminal:
 
 ```bash
-g++ main.cpp -o campusbites
+g++ main.cpp -o CampusBites
 ```
 ### 2. Run
 Execute the compiled program
 ```bash
-./campusbites
+CampusBites.cpp
 ```
 ### 3. Navigation
 Use the numeric keypad to navigate the main menu
 ```text
-_____       __       __   __   _____   _    _   _____   ____     _____  _______ ______  _____    
-   / ____|     /  \     |  \/  | |  __ \ | |  | | / ____| | __ )   |  __ \|__   __|  ____| / ____|   
-  | |         / /\ \    | \  / | | |__) || |  | | | (___  |  _ \   | |__) |   | |  | |__   | (___    
-  | |        / /  \ \   | |\/| | |  ___/ | |  | |  \___ \ | |_) |  |  _  /    | |  |  __|   \___ \   
-  | |___|   / /    \ \  | |  | | | |     | |__| |  ____) || |_) |  | | \ \    | |  | |____  ____) |  
-   \_____\ /_/      \_\ |_|  |_| |_|      \____/  |_____/ |____/   |_|  \_\   |_|  |______| |_____/  
-    
+ _____       __      __   __   _____    _    _    _____   _____     _____   _______   ______     _____
+/ ____|     /  \     |  \/  | |  __  \ | |  | | /   ___| |      \  |_   _| |__   __| |  ____|  /  ____|   
+| |        / /\ \    | \  / | | |__)  || |  | | |  (___  |  |_)  |   | |      | |    | |__    |  (____    
+| |       / /  \ \   | |\/| | |  ____/ | |  | |  \___  \ |     {     | |      | |    |  __|    \___   \   
+| |___   / /    \ \  | |  | | | |      | |__| |  ____)  ||  |_)  |  _| |_     | |    | |____   ____)   |
+\_____| /_/      \_\ |_|  |_| |_|       \____/  |______/ |______/  |_____|	  |_|    |______| |_______/  
+
 ------------------------------------------------------------------------------------------------
 				1. Customer Management
 				2. Menu Management
@@ -107,7 +102,6 @@ Total Amount: $5
 Enter the month (YYYY-MM): 2024-11
 Total Sales for 2024-11: $150.50
 ```
-
 
 ## ⚠️ Requirements
 * **C++ Compiler** (GCC, MinGW, Clang, or MSVC).
